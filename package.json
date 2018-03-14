@@ -1,0 +1,22 @@
+{
+  "name": "mygithub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vivek kumar <vivek.math52@gmail.com> (https://cypherphp.000webhostapp.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "5.8.*",
+    "babel-loader": "5.3.*",
+    "webpack": "^2.1.0-beta.25",
+    "webpack-dev-server": "^2.1.0-beta.8"
+  },
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "build":"webpack"
+}
